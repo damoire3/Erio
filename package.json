@@ -1,7 +1,7 @@
 {
   "name": "app-210",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -17,10 +17,10 @@
     "@capacitor/core": "latest",
     "@capacitor/local-notifications": "latest",
     "@capacitor/cli": "latest",
-    "@capacitor/android": "latest"
+    "@capacitor/android": "latest",
+    "@capacitor/preferences": "latest"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
     "vite": "^5.4.0"
   }
-}
